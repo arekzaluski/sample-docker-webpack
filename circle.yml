@@ -7,3 +7,10 @@ machine:
 test:
   override:        
     - exit 0
+    
+deployment:
+  staging:
+    branch: master
+    codedeploy:
+      docker-test:
+        deployment_group: arek-docker-test
