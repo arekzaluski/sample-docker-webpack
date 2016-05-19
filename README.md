@@ -13,4 +13,4 @@ $ webpack
 $ NODE_ENV=production node index.js
 ```
 
-test2
+test3
